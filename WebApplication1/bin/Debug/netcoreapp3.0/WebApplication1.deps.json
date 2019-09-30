@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "WebApplication1/1.0.0": {
+      "WebApplication1/0.1.10-SNAPSHOT": {
         "dependencies": {
           "Jaeger": "0.3.5",
           "OpenTracing.Contrib.NetCore": "0.6.1",
@@ -501,7 +501,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -510,7 +510,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -519,7 +519,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -2559,7 +2559,7 @@
     }
   },
   "libraries": {
-    "WebApplication1/1.0.0": {
+    "WebApplication1/0.1.10-SNAPSHOT": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2595,14 +2595,14 @@
     "Microsoft.Extensions.Configuration/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7eM+3i9Th1eorWxgfjdAgNUQAQ5eHHFswRmAsy/acsX5tumlBc206ggiVslWYoVGBJcqM+W4Ll5j8wtn/T8ExQ==",
+      "sha512": "sha512-LjVKO6P2y52c5ZhTLX/w8zc5H4Y3J/LJsgqTBj49TtFq/hAtVNue/WA0F6/7GMY90xhD7K0MDZ4qpOeWXbLvzg==",
       "path": "microsoft.extensions.configuration/2.1.1",
       "hashPath": "microsoft.extensions.configuration.2.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7mrMA/bwMPDx339RWoOqQ/GLUDVdeVEyRWag6yLOwGrsZ6EpHSaLig+dIgH1tFWzOrqtUWOT5t0R6ZOd2AH/gg==",
+      "sha512": "sha512-VfuZJNa0WUshZ/+8BFZAhwFKiKuu/qOUCFntfdLpHj7vcRnsGHqd3G2Hse78DM+pgozczGM63lGPRLmy+uhUOA==",
       "path": "microsoft.extensions.configuration.abstractions/2.1.1",
       "hashPath": "microsoft.extensions.configuration.abstractions.2.1.1.nupkg.sha512"
     },
@@ -2616,42 +2616,42 @@
     "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VN6zV4xkMKIxIP48kQzXieZPWXUeGL3M1nQvgXCm44EAvi2eC0gYj/ldrfPde4JF3TOypAENZvuJX1qkTFAgew==",
+      "sha512": "sha512-eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Hosting.Abstractions/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0vGS2+htKuiHZM+wZARiNtaWLPkVngZGYSGV+UDw7/0K78GhCJekLgQn5GCzkG29HBV/vPdCGh7DQOg0MDLPUA==",
+      "sha512": "sha512-qPG6Ip/AdHxMJ7j3z8FkkpCbV8yjtiFpf/aOpN3TwfJWbtYpN+BKV8Q+pqPMgk7XZivcju9yARaEVCS++hWopA==",
       "path": "microsoft.extensions.hosting.abstractions/2.0.0",
       "hashPath": "microsoft.extensions.hosting.abstractions.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tScnYyAa79A/yE/7/Vrlw5ehhgl2XarJe3RF09Ay9IgbWBQ0Fhddx9LeaAMMCRj9S3LNKgqirgEKZK4YO2H+AA==",
+      "sha512": "sha512-VP10syWV/vxYYMKgZ2eDESmUsz3gPxvBn5J6tkVN8lI4M+dF43RN8fWsEPbcAneDmZrHl3Pv23z05nmyGkJlpg==",
       "path": "microsoft.extensions.logging/2.0.0",
       "hashPath": "microsoft.extensions.logging.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Logging.Abstractions/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-frAxEUpwr5+f6C2Ek1yt7es72anGDgDJFNdBzw1SufhUy4KrvylLJJTkZgOxTeyixLXiyzlZHfmQ5/ebOjJwkQ==",
+      "sha512": "sha512-XRzK7ZF+O6FzdfWrlFTi1Rgj2080ZDsd46vzOjadHUB0Cz5kOvDG8vI7caa5YFrsHQpcfn0DxtjS4E46N4FZsA==",
       "path": "microsoft.extensions.logging.abstractions/2.1.1",
       "hashPath": "microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/2.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-r8jvgDr+HYMuuG8CO7vV3BS3ZYPOGRM437L3/wMK3Oxx01qsGU1O/PDQjlr1cuIgXoSPwTf4gS+MqFvecuEeMw==",
+      "sha512": "sha512-sAKBgjl2gWsECBLLR9K54T7/uZaP2n9GhMYHay/oOLfvpvX0+iNAlQ2NJgVE352C9Fs5CDV3VbNTK8T2aNKQFA==",
       "path": "microsoft.extensions.options/2.0.0",
       "hashPath": "microsoft.extensions.options.2.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Primitives/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TCTmtM3t1eeSi+vZXILqT9vNBooOeuB9VChERfeP+XPi7BCJV68eD1EJDC/LpXkAb+3ZK2Fd8no7U3kHl6ozkQ==",
+      "sha512": "sha512-scJ1GZNIxMmjpENh0UZ8XCQ6vzr/LzeF9WvEA51Ix2OQGAs9WPgPu8ABVUdvpKPLuor/t05gm6menJK3PwqOXg==",
       "path": "microsoft.extensions.primitives/2.1.1",
       "hashPath": "microsoft.extensions.primitives.2.1.1.nupkg.sha512"
     },
@@ -2700,7 +2700,7 @@
     "runtime.native.System.Data.SqlClient.sni/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AJfX7owAAkMjWQYhoml5IBfXh8UyYPjktn8pK0BFGAdKgBS7HqMz1fw5vdzfZUWfhtTPDGCjgNttt46ZyEmSjg==",
+      "sha512": "sha512-zmr7mxqvG7M7qWzPTHQEF0jIOo65vqsnaJ2s7AyZ9JQaSJ3rfXZ7vPGszw1EbvRATu6zsFMdpQeq1g7oaNocOg==",
       "path": "runtime.native.system.data.sqlclient.sni/4.5.0",
       "hashPath": "runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512"
     },
@@ -2735,7 +2735,7 @@
     "System.Data.SqlClient/4.6.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-gwItUWW1BMCckicFO85c8frFaMK8SGqYn5IeA3GSX4Lmid+CjXETfoHz7Uv+Vx6L0No7iRc/7cBL8gd6o9k9/g==",
+      "sha512": "sha512-DLhg881ETdy/OmlbBCjfXGVU2Xlm9x5yHwhcl33SAfCIG05hAbgMcvHUZruIG1sBJolGzDhes7R7hAKPS1SOqw==",
       "path": "system.data.sqlclient/4.6.0",
       "hashPath": "system.data.sqlclient.4.6.0.nupkg.sha512"
     },
