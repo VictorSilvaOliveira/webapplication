@@ -1,30 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/e/Projects/WebApplication1/WebApplication1/WebApplication1.csproj": {}
+    "e:\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "/e/Projects/WebApplication1/WebApplication1/WebApplication1.csproj": {
-      "version": "1.0.0",
+    "e:\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+      "version": "0.1.10-SNAPSHOT",
       "restore": {
-        "projectUniqueName": "/e/Projects/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "projectUniqueName": "e:\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "/e/Projects/WebApplication1/WebApplication1/WebApplication1.csproj",
-        "packagesPath": "/home/victor/.nuget/packages/",
-        "outputPath": "/e/Projects/WebApplication1/WebApplication1/obj/",
+        "projectPath": "e:\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
+        "outputPath": "e:\\Projects\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/victor/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/octa-tech/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.0": {
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
