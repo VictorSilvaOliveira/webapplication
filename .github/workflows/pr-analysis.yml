@@ -3,7 +3,7 @@ name: Pull request analysis
 on:
   pull_request:
     branches:
-    - master
+    - feature/*
     
 jobs:
   analysis:
@@ -12,6 +12,8 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
+      with: ${{ github.ref }}
+        ref: some-branch
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
