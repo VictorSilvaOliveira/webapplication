@@ -25,7 +25,7 @@ jobs:
         echo ::add-path::/opt/hostedtoolcache/dncs/2.1.802/x64
         dotnet tool install --tool-path /opt/hostedtoolcache/dncs/2.1.802/x64 dotnet-sonarscanner
     - name: Start SonarScanner
-      run: dotnet sonarscanner begin /d:sonar.login=f48b8638f99cb3b259282e5facbeed33a4abf6b2 /k:VictorSilvaOliveira_webapplication /o:victorsilvaoliveira /d:sonar.host.url=https://sonarcloud.io /d:sonar.pullrequest.key=${{ github.head_ref }} /d:sonar.pullrequest.branch=${{ github.ref }} /d:sonar.pullrequest.base=master
+      run: dotnet sonarscanner begin /d:sonar.login=f48b8638f99cb3b259282e5facbeed33a4abf6b2 /k:VictorSilvaOliveira_webapplication /o:victorsilvaoliveira /d:sonar.host.url=https://sonarcloud.io /d:sonar.pullrequest.key=${{ github.head_ref }} /d:sonar.pullrequest.branch=${{ github.ref }} /d:sonar.pullrequest.base=master /d:sonar.pullrequest.github.repositor=VictorSilvaOliveira/webapplication
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build Solution
